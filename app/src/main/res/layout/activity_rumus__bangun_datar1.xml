@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rumus__bangun__datar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/datar"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ogya.proyekakhir.Rumus_Bangun_Datar">
+
+    <TextView
+        android:id="@+id/txtPersegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="230px"
+        android:text="Busur Sangkar"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold"
+        tools:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtKelPsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPersegi"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtPsg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKelPsg"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling = 2 x (Panjang + Lebar)"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtPsg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPsg1"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling = Panjang + Panjang + Lebar + Lebar"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtLuasPsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPsg2"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtPsg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLuasPsg"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas = Panjang x Lebar"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtDiagPsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPsg3"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Diagonal"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtPsg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtDiagPsg"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Diagonal = √2 x Sisi"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtSgtiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPsg4"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="75px"
+        android:text="Segitiga"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtKelSgtiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSgtiga"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtSgtiga1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKelSgtiga"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling = Sisi + Sisi + Sisi"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtSgtiga2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSgtiga1"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling = 3 x Sisi (Untuk Segitiga Sama sisi)"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtLuasSgtiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSgtiga2"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtSgtiga3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLuasSgtiga"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas = Alas x Tinggi / 2"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtSsSgtiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSgtiga3"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Mencari Salah Satu Sisi Segitiga"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtSgtiga4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSsSgtiga"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Sisi Miring² = SisiA² + SisiB²"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <Button
+        android:id="@+id/btnPrev1Datar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtSgtiga4"
+        android:layout_below="@+id/txtSgtiga4"
+        android:layout_marginRight="75px"
+        android:background="@android:color/holo_red_light"
+        android:text="Sebelumnya"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnFwd1Datar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtSgtiga4"
+        android:layout_marginRight="75px"
+        android:background="@android:color/holo_red_light"
+        android:text="Selanjutnya"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

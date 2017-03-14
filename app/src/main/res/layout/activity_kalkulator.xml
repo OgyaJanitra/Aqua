@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kalkulator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kalkulator"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ogya.proyekakhir.Kalkulator">
+
+    <EditText
+        android:id="@+id/editKlr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editMsk"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:ems="10"
+        android:hint="Masukkan Angka Kedua"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnTmbh"
+        android:layout_below="@+id/btnKali"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="/"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txtAngk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230px"
+        android:text="Masukkan Angka"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/editMsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtAngk"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Masukkan Angka Pertama"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnKrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnTmbh"
+        android:layout_below="@+id/btnTmbh"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="-"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnKrg"
+        android:layout_below="@+id/btnKrg"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="*"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnTmbh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editKlr"
+        android:layout_below="@+id/txtOpp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_red_light"
+        android:text="+"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txtOpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editKlr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="Pilih Operator"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/editHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBagi"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginStart="7dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtHsl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnKali"
+        android:layout_alignStart="@+id/editKlr"
+        android:text="Hasil Perhitungan"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>

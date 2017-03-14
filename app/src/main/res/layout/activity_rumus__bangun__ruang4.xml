@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rumus__bangun__ruang4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ruang"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ogya.proyekakhir.Rumus_Bangun_Ruang4">
+
+    <TextView
+        android:id="@+id/txtPrsm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLms2"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="230px"
+        android:text="Prisma"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtKVolPrsm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPrsm"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Volume"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtPrsm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKVolPrsm"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Volume = Luas Alas x Tinggi"
+        android:textColor="@android:color/white"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/txtLPPrsm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPrsm1"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas Permukaan"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtPrsm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLPPrsm"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="L.P. = 2 x Luas Alas + Jumlah sisi Alas x Luas Sisi Tegak"
+        android:textColor="@android:color/white"
+        android:textSize="40px" />
+
+    <Button
+        android:id="@+id/btnPrev4Ruang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtPrsm2"
+        android:layout_marginBottom="84dp"
+        android:layout_marginRight="75px"
+        android:background="@android:color/holo_red_light"
+        android:text="Sebelumnya"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnFwd4Ruang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPrev4Ruang"
+        android:layout_alignBottom="@+id/btnPrev4Ruang"
+        android:layout_alignEnd="@+id/txtPrsm2"
+        android:background="@android:color/holo_red_light"
+        android:text="Selanjutnya"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnHomeRuang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnFwd4Ruang"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/btnFwd4Ruang"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="75px"
+        android:background="@android:color/holo_red_light"
+        android:text="Home"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

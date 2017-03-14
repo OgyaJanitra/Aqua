@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rumus__bangun__ruang2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ruang"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ogya.proyekakhir.Rumus_Bangun_Ruang2">
+
+
+    <TextView
+        android:id="@+id/txtKrct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtTbg3"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="230px"
+        android:text="Kerucut"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtKVolKrct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKrct"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Volume"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtKrct1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKVolKrct"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Volume = 1 / 3 x Luas Alas x Tinggi"
+        android:textColor="@android:color/white"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/txtLPKrct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKrct1"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas Permukaan"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtKrct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLPKrct"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="L.P. = Luas Alas + Luas Selimut"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtLms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKrct2"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="50px"
+        android:text="Limas"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtKVolLms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLms"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Volume"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtLms1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKVolLms"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Volume = 1 / Jumlah Sisi Alas x Alas x Tinggi"
+        android:textColor="@android:color/white"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/txtLPLms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLms1"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas Permukaan"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtLms2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLPLms"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="L.P. = Luas Alas + Jumlah sisi Alas x Luas Sisi Tegak"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <Button
+        android:id="@+id/btnPrev2Ruang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtLms2"
+        android:layout_below="@+id/txtLms2"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="79dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Sebelumnya"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnFwd2Ruang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPrev2Ruang"
+        android:layout_alignBottom="@+id/btnPrev2Ruang"
+        android:layout_alignEnd="@+id/txtLms1"
+        android:background="@android:color/holo_red_light"
+        android:text="Selanjutnya"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

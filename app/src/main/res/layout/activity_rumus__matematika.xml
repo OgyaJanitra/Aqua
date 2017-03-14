@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rumus__matematika"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/matematika"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ogya.proyekakhir.Rumus_Matematika">
+
+    <Button
+        android:id="@+id/btnBgnRng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnBgnDtr"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="Bangun Ruang"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnBgnDtr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="230px"
+        android:background="@android:color/holo_red_light"
+        android:text="Bangun Datar"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnGradien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnBgnRng"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="Gradien"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnMatriks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnGradien"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="Matriks"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnHomeMath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnMatriks"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="Home"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

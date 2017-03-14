@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ogya.proyekakhir">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Walking CalcuBox"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Layar_Awal"></activity>
+        <activity android:name=".Rumus_Matematika" />
+        <activity android:name=".Rumus_Bangun_Ruang" />
+        <activity android:name=".Kalkulator" />
+        <activity android:name=".Konversi" />
+        <activity android:name=".Konversi_Panjang" />
+        <activity android:name=".Konversi_Berat" />
+        <activity android:name=".Konversi_Mata_Uang" />
+        <activity android:name=".Kalkulator_Kalkulator" />
+        <activity android:name=".Kalkulator_2" />
+        <activity android:name=".Kalkulator_3" />
+        <activity android:name=".Rumus_Bangun_Ruang2" />
+        <activity android:name=".Rumus_Bangun_Ruang3" />
+        <activity android:name=".Rumus_Bangun_Ruang4" />
+        <activity android:name=".rumus_bangun_datar2" />
+        <activity android:name=".rumus_bangun_datar3" />
+        <activity android:name=".rumus_bangun_datar4" />
+        <activity android:name=".rumus_Bangun_datar1" />
+        <activity android:name=".rumus_Gradien" />
+        <activity android:name=".rumus_Matriks" />
+        <activity android:name=".rumus_Matriks2" />
+        <activity android:name=".rumus_Matriks3" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Credit"></activity>
+    </application>
+
+</manifest>

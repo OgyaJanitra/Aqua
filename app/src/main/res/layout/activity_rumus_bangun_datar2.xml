@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rumus_bangun_datar2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/datar"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ogya.proyekakhir.rumus_bangun_datar2">
+
+    <TextView
+        android:id="@+id/txtLingk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="230px"
+        android:text="Lingkaran"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtKelLingk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLingk"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtLingk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLingk1"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling = phi x 2 x Jari - Jari"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtLingk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKelLingk"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling = phi x diameter"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtLuasLingk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLingk2"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtLingk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLuasLingk"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas = phi x Jari - Jari x Jari -Jari"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtLingk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLingk3"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas = phi x diameter x diameter / 4"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtLingk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLingk4"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="*phi = 22/7 atau 3,14"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtJjrGjg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLingk5"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="75px"
+        android:text="Jajar Genjang"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtKelJjrGjg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtJjrGjg"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtJjrGjg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtKelJjrGjg"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling = 2 x Alas + 2 x Sisi Miring"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtJjrGjg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtJjrGjg1"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Keliling = 2 x (Alas + Sisi Miring)"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/txtLuasJjrGjg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtJjrGjg2"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtJjrGjg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtLuasJjrGjg"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Luas = Alas x Tinggi"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <Button
+        android:id="@+id/btnPrev2Datar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtJjrGjg3"
+        android:layout_below="@+id/txtJjrGjg3"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="23dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Sebelumnya"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnFwd2Datar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPrev2Datar"
+        android:layout_alignBottom="@+id/btnPrev2Datar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="75px"
+        android:background="@android:color/holo_red_light"
+        android:text="Selanjutnya"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

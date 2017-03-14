@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rumus__gradien"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ogya.proyekakhir.rumus_Gradien">
+
+    <TextView
+        android:id="@+id/gradien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="230px"
+        android:text="Gradien"
+        android:textColor="@android:color/white"
+        android:textSize="75px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rumusUmum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gradien"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Rumus Umum"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rumG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rumusUmum"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="y = mx + c"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/persamaanG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rumG"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:text="Pada persamaan garis :"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rumPers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/persamaanG"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="ax + by + c = 0"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/grad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rumPers"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="gradiennya : -a / b"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/kord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/grad"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:text="Gradien garis melalui pangkal koordinat"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rumkord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/kord"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="Garis yang melalui pangkal koordinat (0,0) maka :"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/rumkordin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rumkord"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="m = y / x = -3 / 2"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+    <TextView
+        android:id="@+id/duatitik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rumkordin"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:text="Gradien garis melalui dua titik (x1,y1) dan (x2,y2)"
+        android:textColor="@android:color/white"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rumduatitik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/duatitik"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:text="m = (y2-y1) / (x2-x1)"
+        android:textColor="@android:color/white"
+        android:textSize="45px" />
+
+
+</RelativeLayout>

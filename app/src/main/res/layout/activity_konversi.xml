@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_konversi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/konversi"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ogya.proyekakhir.Konversi">
+
+    <Button
+        android:id="@+id/btnKonBrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnKonPjg"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="Konversi Berat"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnUang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnKonBrt"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="Konversi Mata Uang"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnKonPjg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="230px"
+        android:background="@android:color/holo_red_light"
+        android:text="Konversi panjang"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnHomeKonv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnUang"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginTop="30px"
+        android:background="@android:color/holo_red_light"
+        android:text="Home"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
